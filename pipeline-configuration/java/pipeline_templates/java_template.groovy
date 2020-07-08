@@ -1,3 +1,5 @@
-git.checkout()
-unit_test()
-package_software()
+node {
+    git.checkout()
+    unit_test()
+    package_software()
+}
