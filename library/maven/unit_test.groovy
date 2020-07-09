@@ -1,6 +1,6 @@
 void call(){
     stage("Maven: Unit Test"){
         println "Unit testing the java software"
-        sh 'mvn clean test'
+        execution_context["unit_tested"] = true
     }
 }
