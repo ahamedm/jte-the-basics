@@ -1,3 +1,4 @@
+execution_context = [:]
 node {
     git.checkout()
     unit_test()
