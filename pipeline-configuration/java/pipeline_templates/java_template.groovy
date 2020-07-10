@@ -1,5 +1,5 @@
 execution_context = [:]
-node {
+node ("master") {
     git.checkout()
     unit_test()
     static_security_test()
